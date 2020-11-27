@@ -8,7 +8,7 @@
   </head>
   <body>
     <form action="#" method="">
-      <span class="in">Войти</span>
+      Войти
       <input
         id="autorization"
         type="password"
@@ -21,46 +21,52 @@
         type="text"
         name="Login"
         maxlength="16"
-        
         placeholder="Логин"
       />
-      
+
       <input
-      id="autorization"
-      type="password"
-      name="pass"
-      maxlength="16"
-      placeholder="Отключено"
-      disabled
-    />
-      <div class="gender">
-        Ваш пол: <br />
-        <input type="radio" name="gender" id="man" /><label for="man"
-          >Муж. </label
-        ><br />
-        <input type="radio" name="gender" id="wom" /><label for="wom">Жен.</label> <br />
-      </div>
+        id="autorization"
+        type="password"
+        name="pass"
+        maxlength="16"
+        placeholder="Отключено"
+        disabled
+      />
+      <br />
+      Ваш пол: <br />
+      <input type="radio" name="gender" id="man" /><label for="man">Муж. </label
+      ><br />
+      <input type="radio" name="gender" id="wom" /><label for="wom">Жен.</label>
+      <br />
 
-      <div class="profession">
-        Ваша профессия: <br />
-        <input type="checkbox" name="Builder" id="Builder" />
-        <label for="Builder">Строитель</label> <br />
-        <input type="checkbox" name="Military" id="Military" />
-        <label for="Military">Военный</label> <br />
-        <input type="checkbox" name="Farmer" id="Farmer" />
-        <label for="Farmer">Фермер</label>
-      </div>
+      Ваша профессия: <br />
+      <input type="checkbox" name="builder" id="builder" />
+      <label for="builder">Строитель</label> <br />
+      <input type="checkbox" name="military" id="military" />
+      <label for="military">Военный</label> <br />
+      <input type="checkbox" name="farmer" id="farmer" />
+      <label for="farmer">Фермер</label>
+      <br />
 
-      <div class="about">
-        <br />
-        Напишите несколько слов о себе <br />
-        <textarea
-          name="text"
-          cols="30"
-          rows="10"
-          placeholder="За эту надпись отвечает placeholder"
-        ></textarea>
-      </div>
+      <span style="color: red"
+        ><strong> Список о которой ты сегодня говорил! :)</strong></span
+      ><br> Установил по умолчанию HTML
+      <br>
+      <select id="br" name="logic_name">
+        <option>txt</option>
+        <option selected>HTML</option>
+        <option>JS</option></select
+      ><br />
+
+      Напишите несколько слов о себе <br />
+      <textarea
+        name="text"
+        cols="30"
+        rows="10"
+        placeholder="За эту надпись отвечает placeholder"
+        id="br"
+      ></textarea>
+
       <br />
       <button>Отправить</button>
       <button>Сбросить</button>
